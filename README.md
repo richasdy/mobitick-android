@@ -1,8 +1,5 @@
 # mobitick-android
 
-SECTION_Git
-===========
-
 List of Git : e-ticket
 
 e-ticket dikembangkan oleh Immersa Labs
