@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Identitas" >
+        <ListPreference
+            android:key="plat_bis"
+            android:title="Nomor Plat Bis" 
+            android:dialogTitle="Nomor Plat Bis" 
+            android:defaultValue="@string/default_platbis" android:entryValues="@array/pref_example_list_values" android:entries="@array/pref_example_list_titles"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Layanan" >
+        <ListPreference
+            android:dialogTitle="Pilih Bluetooth Printer dari daftar pairing."
+            android:key="bluetooth_list" android:title="Pilih Bluetooth Printer..."/>
+    <EditTextPreference android:dialogTitle="Alamat Layanan" android:dialogMessage="@string/technical_text" android:key="service_address" android:title="Alamat Layanan" android:defaultValue="@string/default_service"/></PreferenceCategory><PreferenceCategory android:title="Maintenance">
+        
+        <EditTextPreference android:dialogTitle="Password Kontrol Administrasi" android:key="input_password" android:dialogMessage="Masukkan password untuk mengganti kode akses kontrol aplikasi." android:defaultValue="1234" android:title="Password Keamanan" android:summary="Mengubah akses password panel ini" /><ListPreference android:dialogTitle="Daftar Rute" android:key="route_list" android:title="Pilih Daftar Rute..." android:enabled="false" />
+        <ListPreference android:dialogTitle="Pilih Arah Pergerakan Trayek" android:title="Arah Trayek" android:key="trajectory_direction" android:defaultValue="0" android:entryValues="@array/direction_values" android:entries="@array/direction_entry" />
+        
+        
+        
+        
+        
+    </PreferenceCategory><PreferenceCategory android:title="Bantuan"><Preference android:defaultValue="0" android:key="unique_key" android:title="Informasi Versi Database Server" android:enabled="false" android:selectable="false" />
+        <Preference android:summary="Tentang Aplikasi Ini" android:key="pref_about" android:title="Tentang"/><Preference android:summary="Muat ulang aplikasi untuk menerapkan efek perubahan sistem" android:key="pref_restart" android:title="Restart"/><Preference android:title="Keluar" android:summary="Keluar dari Aplikasi" android:key="pref_quit"/>
+        
+        
+    </PreferenceCategory>
+    
+    
+
+</PreferenceScreen>

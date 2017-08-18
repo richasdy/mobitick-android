@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_caption_size">28sp</dimen>
+    <dimen name="text_caption_large">36sp</dimen>
+    <dimen name="text_super_large">224sp</dimen>
+	<dimen name="text_caption_xxhdpi_size">14sp</dimen>
+    <dimen name="text_caption_xxhdpi_large">20sp</dimen>
+	<dimen name="text_xxhdpi_super_large">116sp</dimen>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="490dp"
+    android:layout_height="415dp"
+    android:background="@drawable/basedialog"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_done"
+        style="@attr/buttonBarStyle"
+        android:layout_width="225dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/button_dark"
+        android:cropToPadding="false"
+        android:longClickable="false"
+        android:scaleType="centerCrop"
+        android:shadowColor="@color/black_overlay"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="OK"
+        android:textAlignment="center"
+        android:textColor="#222222"
+        android:textSize="@dimen/text_caption_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtKota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:text="Kota 1 - Kota 2"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtKota"
+        android:layout_below="@+id/txtKota"
+        android:layout_marginTop="8dp"
+        android:text="num X @ Rp xxxx"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_done"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="Total : Rp xxxx,-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

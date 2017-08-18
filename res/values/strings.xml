@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Ticketing</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_string">empty</string>
+    <string name="dummy_title">CONTENT_TITLE_STRING</string>
+    <string name="dummy_city_text">KOTA 1 -> KOTA 2</string>
+    <string name="technical_text">Perlu ditekankan bahwa alamat layanan tidak seharusnya diubah. Konsultasikan kepada teknisi terlebih dahulu untuk mengonfirmasi apabila memang ada perubahan yang terjadi pada layanan.</string>
+    <string name="default_service">http://fastunpad.org/REST/</string>
+    <string name="default_platbis">1</string>
+    <string-array name="direction_entry">
+        <item >Maju</item>
+        <item >Balik</item>
+    </string-array>
+    <string-array name="direction_values">
+        <item >maju</item>
+        <item >balik</item>
+    </string-array>
+
+</resources>
